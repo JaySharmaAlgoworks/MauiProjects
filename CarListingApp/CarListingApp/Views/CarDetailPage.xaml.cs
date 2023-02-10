@@ -9,6 +9,7 @@ public partial class CarDetailPage : ContentPage
 		InitializeComponent();
 		BindingContext = carDetailPageViewModel;
 	}
+
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {
         base.OnNavigatedTo(args);

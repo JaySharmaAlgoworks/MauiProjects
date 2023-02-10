@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using CarListingApp.Services;
 using CarListingApp.ViewModels;
-using CarListingApp.Models;
 using CarListingApp.Views;
 
 namespace CarListingApp;
@@ -22,12 +21,22 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
-		builder.Services.AddSingleton<CarService>();
+
+		#region Services
+        builder.Services.AddSingleton<CarService>();
+        #endregion
+
+        #region ViewModels
         builder.Services.AddSingleton<CarListViewModel>();
         builder.Services.AddTransient<CarDetailPageViewModel>();
+        #endregion
 
+        #region Pages
         builder.Services.AddSingleton<MainPage>();
-		builder.Services.AddTransient<CarDetailPage>();
+        builder.Services.AddTransient<CarDetailPage>();
+        #endregion
+
+
         return builder.Build();
 	}
 }

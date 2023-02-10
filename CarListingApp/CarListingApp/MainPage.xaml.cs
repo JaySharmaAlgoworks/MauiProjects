@@ -10,6 +10,11 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 		BindingContext = carListViewModel;
+		//How to use prefernces for storage
+		//Preferences.Set("saveDetails", true);
+		//var detailsaved = Preferences.Get("saveDetails", false);
+
+		
 	}
 
 	

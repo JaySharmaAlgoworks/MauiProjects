@@ -6,6 +6,7 @@ using Microsoft.Toolkit.Mvvm.Input;
 using System.Diagnostics;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using CarListingApp.Views;
+using System.Text.Json;
 
 namespace CarListingApp.ViewModels
 {
@@ -35,6 +36,16 @@ namespace CarListingApp.ViewModels
 				{
 					Cars.Add(car);
 				}
+
+				//Stored in fileSystem 
+				/*string fileName = "carlist.json";
+				var serializedList = JsonSerializer.Serialize(cars);
+				File.WriteAllText(fileName, serializedList);
+
+				var rawText=File.ReadAllText(fileName);
+				var carsFromText = JsonSerializer.Deserialize<List<Car>>(rawText);
+				string path = FileSystem.AppDataDirectory;
+				string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);*/
 			}
 			catch (Exception ex)
 			{

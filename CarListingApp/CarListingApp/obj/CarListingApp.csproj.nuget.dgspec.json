@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jaysharma/Projects/CarListingApp/CarListingApp/CarListingApp.csproj": {}
+    "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/CarListingApp.csproj": {}
   },
   "projects": {
-    "/Users/jaysharma/Projects/CarListingApp/CarListingApp/CarListingApp.csproj": {
+    "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/CarListingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jaysharma/Projects/CarListingApp/CarListingApp/CarListingApp.csproj",
+        "projectUniqueName": "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/CarListingApp.csproj",
         "projectName": "CarListingApp",
-        "projectPath": "/Users/jaysharma/Projects/CarListingApp/CarListingApp/CarListingApp.csproj",
+        "projectPath": "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/CarListingApp.csproj",
         "packagesPath": "/Users/jaysharma/.nuget/packages/",
-        "outputPath": "/Users/jaysharma/Projects/CarListingApp/CarListingApp/obj/",
+        "outputPath": "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -76,7 +76,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
             },
             "Microsoft.Toolkit.Mvvm": {
@@ -137,6 +137,10 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -150,32 +154,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Maui.Controls.Ref.android",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.android",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.android",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.android",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.android",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.android",
-              "version": "[7.0.52, 7.0.52]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -193,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -224,12 +202,16 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
             },
             "Microsoft.Toolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -243,32 +225,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Maui.Controls.Ref.ios",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.ios",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.ios",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.ios",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.ios",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.ios",
-              "version": "[7.0.52, 7.0.52]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -286,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -317,12 +273,16 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
             },
             "Microsoft.Toolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -337,32 +297,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
-              "version": "[7.0.52, 7.0.52]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -380,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
