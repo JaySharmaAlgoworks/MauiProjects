@@ -12,15 +12,23 @@ namespace CarListingApp.ViewModels
 {
 	public partial class CarListViewModel:BaseViewModel
     {
-		private readonly CarService carService;
 		public ObservableCollection<Car> Cars { get; set; } = new();
-		public CarListViewModel(CarService carService)
+
+		public CarListViewModel()
 		{
 			Title = "Car List";
-			this.carService = carService;
+			GetCarList().Wait();
 		}
+
 		[ObservableProperty]
          bool isRefreshing;
+        [ObservableProperty]
+        string make;
+        [ObservableProperty]
+        string model;
+        [ObservableProperty]
+        string vin;
+
         [ICommand]
 		async Task GetCarList()
 		{
@@ -30,7 +38,7 @@ namespace CarListingApp.ViewModels
 				IsLoading = true;
 				if (Cars.Any()) Cars.Clear();
 
-				var cars = carService.GetCars();
+				var cars = App.CarService.GetCars();
 
 				foreach(var car in cars)
 				{
@@ -68,6 +76,44 @@ namespace CarListingApp.ViewModels
 				{ nameof(Car), car }
 			});
 		}
+
+		[ICommand]
+		async Task AddCar()
+		{
+			if (string.IsNullOrEmpty(Make) || string.IsNullOrEmpty(Model) || string.IsNullOrEmpty(Vin))
+			{
+				await Shell.Current.DisplayAlert("Invalid Data", "Please insert valid data", "Ok");
+			}
+			var car = new Car
+			{
+				Make = Make,
+				Model=Model,
+				Vin=Vin
+			};
+			App.CarService.AddCar(car);
+			await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
+			await GetCarList();
+		}
+		[ICommand]
+		async Task DeleteCar(int id)
+		{
+			if (id == 0)
+			{
+                await Shell.Current.DisplayAlert("Invalid Record", "Please try again", "Ok");
+				return;
+            }
+			var result = App.CarService.DeleteCar(id);
+			if (result == 0)
+			{
+                 await Shell.Current.DisplayAlert("Invalid Data", "Please insert valid data", "Ok");
+
+			}
+			else
+			{
+                await Shell.Current.DisplayAlert("Deletion Successful", "Record Removed Successfully", "Ok");
+
+            }
+        }
 
     }
 }

@@ -46,7 +46,9 @@ namespace CarListingApp.Services
 
         SQLiteConnection conn;
         string _dbPath;
+        int result=0;
         public string StatusMessage;
+
         public CarService(string dbPath)
         {
             _dbPath = dbPath;
@@ -74,6 +76,23 @@ namespace CarListingApp.Services
                 StatusMessage = "Falied to retrieve data.";
             }
             return new List<Car>();
+        }
+
+        public void AddCar(Car car)
+        {
+            try
+            {
+                Init();
+                if (car == null)
+                    throw new Exception("Invalid Car Record");
+                result = conn.Insert(car);
+                StatusMessage = result == 0 ? "Insert Failed" : "Insert Success";
+
+            }
+            catch(Exception ex)
+            {
+                StatusMessage = "Failed to Insert data.";
+            }
         }
     }
 }
