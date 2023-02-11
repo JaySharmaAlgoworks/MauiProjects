@@ -47,9 +47,9 @@
             <Entry x:Name="Vin" Placeholder="Enter Vin" Text="{Binding Vin}"/>
         </VerticalStackLayout>
 
-        <Button Text="Add Car" Grid.Row="1" IsEnabled="{Binding IsNotLoading}" Margin="9" Command="{Binding AddCarCommand}"/>
+        <Button Text="{Binding AddEditButtonText}" Grid.Row="1" IsEnabled="{Binding IsNotLoading}" Margin="9" Command="{Binding SaveCarCommand}"/>
 
-        <Button Text="Fetch Cars" Grid.Row="2"  IsEnabled="{Binding IsNotLoading}" Margin="9" Command="{Binding GetCarListCommand}"/>
+        <Button Text="Clear Form" Grid.Row="2"  IsEnabled="{Binding IsNotLoading}" Margin="9" Command="{Binding ClearFormCommand}"/>
 
         <RefreshView Grid.Row="4" Command="{Binding GetCarListCommand}" IsRefreshing="{Binding IsRefreshing}">
             <CollectionView  ItemsSource="{Binding Cars}" SelectionMode="None">
@@ -66,7 +66,7 @@
                                 </Frame.GestureRecognizers>
                             </Frame>
                             <HorizontalStackLayout Grid.Column="1">
-                                <Button Text="Update" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CarListViewModel}},Path=UpdateCarCommand}" CommandParameter="{Binding Id}" Margin="9"/>
+                                <Button Text="Update" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CarListViewModel}},Path=SetEditModeCommand}" CommandParameter="{Binding Id}" Margin="9"/>
                                 <Button Text="Delete" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CarListViewModel}},Path=DeleteCarCommand}" CommandParameter="{Binding Id}" Margin="9"/>
                             </HorizontalStackLayout>
                         </Grid>

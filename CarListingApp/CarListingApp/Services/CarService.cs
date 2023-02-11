@@ -71,7 +71,7 @@ namespace CarListingApp.Services
                 Init();
                 return conn.Table<Car>().ToList();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 StatusMessage = "Falied to retrieve data.";
             }
@@ -122,6 +122,27 @@ namespace CarListingApp.Services
                 StatusMessage = "Falied to retrieve data.";
             }
             return null;
+        }
+
+        public int UpdateCar(Car car)
+        {
+            try
+            {
+                Init();
+                if (car == null)
+                    throw new Exception("Invalid Car Record");
+
+                result = conn.Update(car);
+
+                StatusMessage = result == 0 ? "Update Failed" : "Update Successful";
+                
+
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = "Failed to update data.";
+            }
+            return 0;
         }
     }
 }

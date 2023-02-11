@@ -83,6 +83,14 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.4, )"
@@ -213,6 +221,14 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.4, )"
@@ -287,6 +303,14 @@
             "Microsoft.Toolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.4, )"
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",

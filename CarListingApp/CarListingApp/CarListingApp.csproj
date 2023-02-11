@@ -53,6 +53,8 @@
 		<PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+		<PackageReference Include="SQLitePCLRaw.core" Version="2.1.4" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.4" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -64,6 +66,9 @@
 	  <None Remove="Microsoft.Toolkit.Mvvm" />
 	  <None Remove="sqlite-net-pcl" />
 	  <None Remove="SQLitePCLRaw.provider.dynamic_cdecl" />
+	  <None Remove="SQLitePCLRaw.provider.e_sqlite3" />
+	  <None Remove="SQLitePCLRaw.core" />
+	  <None Remove="SQLitePCLRaw.bundle_green" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />

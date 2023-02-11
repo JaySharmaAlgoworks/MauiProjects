@@ -1,28 +1,27 @@
 ﻿<Properties StartupConfiguration="{AFD2D64D-F176-44C3-9E2C-1E43E16BB364}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarListingApp/Models/Car.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarListingApp/Platforms/MacCatalyst/AppDelegate.cs">
     <Files>
-      <File FileName="CarListingApp/MainPage.xaml.cs" Line="9" Column="34" />
-      <File FileName="CarListingApp/MainPage.xaml" />
-      <File FileName="CarListingApp/Models/Car.cs" Line="13" Column="1" />
+      <File FileName="CarListingApp/ViewModels/CarListViewModel.cs" Line="106" Column="15" IsPinned="True" />
+      <File FileName="CarListingApp/Services/CarService.cs" Line="58" Column="1" IsPinned="True" />
+      <File FileName="CarListingApp/ViewModels/CarDetailPageViewModel.cs" Line="19" Column="31" IsPinned="True" />
+      <File FileName="CarListingApp/MainPage.xaml.cs" />
+      <File FileName="CarListingApp/MainPage.xaml" Line="39" Column="31" />
+      <File FileName="CarListingApp/Models/Car.cs" Line="19" Column="1" />
       <File FileName="CarListingApp/Models/CarMart.cs" />
-      <File FileName="CarListingApp/Services/CarService.cs" />
-      <File FileName="CarListingApp/Models/BaseEntity.cs" />
+      <File FileName="CarListingApp/Models/BaseEntity.cs" Line="13" Column="1" />
       <File FileName="CarListingApp/ViewModels/BaseViewModel.cs" />
-      <File FileName="CarListingApp/MauiProgram.cs" Line="23" Column="7" />
+      <File FileName="CarListingApp/MauiProgram.cs" Line="16" Column="5" />
       <File FileName="CarListingApp/ViewModels/BaseViewModelNew.cs" />
-      <File FileName="CarListingApp/Views/CarDetailPage.xaml" Line="12" Column="29" />
-      <File FileName="CarListingApp/ViewModels/CarDetailPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="CarListingApp/Views/CarDetailPage.xaml" />
       <File FileName="CarListingApp/Views/CarDetailPage.xaml.cs" Line="18" Column="1" />
-      <File FileName="CarListingApp/AppShell.xaml.cs" Line="16" Column="1" />
-      <File FileName="CarListingApp/ViewModels/CarListViewModel.cs" Line="46" Column="56" />
+      <File FileName="CarListingApp/AppShell.xaml.cs" />
+      <File FileName="CarListingApp/App.xaml.cs" Line="15" Column="2" />
+      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/33.0.26/tools/Xamarin.Android.Aapt2.targets" Line="212" Column="3" />
+      <File FileName="CarListingApp/Platforms/MacCatalyst/AppDelegate.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,11 +29,16 @@
           <Node name="CarListingApp" expanded="True">
             <Node name="CarListingApp" expanded="True">
               <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+                <Node name="MacCatalyst" expanded="True" />
+              </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="CarDetailPage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
@@ -44,4 +48,12 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CarListingApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/Services/CarService.cs" relfile="CarListingApp/Services/CarService.cs" line="82" column="1" />
+      <Breakpoint file="/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/Services/CarService.cs" relfile="CarListingApp/Services/CarService.cs" line="69" column="1" />
+      <Breakpoint file="/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/Services/CarService.cs" relfile="CarListingApp/Services/CarService.cs" line="58" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
 </Properties>

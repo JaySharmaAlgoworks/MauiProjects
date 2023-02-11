@@ -14,6 +14,9 @@ namespace CarListingApp.ViewModels
     {
         public ObservableCollection<Car> Cars { get; set; } = new();
 
+        const string editButtonText = "Update Car";
+        const string createButtonText = "Add Car";
+
         public CarListViewModel()
         {
             Title = "Car List";
@@ -31,6 +34,13 @@ namespace CarListingApp.ViewModels
 
         [ObservableProperty]
         string vin;
+
+        [ObservableProperty]
+        string addEditButtonText;
+
+        [ObservableProperty]
+        int carId;
+
 
         [ICommand]
 
@@ -82,7 +92,7 @@ namespace CarListingApp.ViewModels
 
         [ICommand]
 
-        async Task AddCar()
+        async Task SaveCar()
         {
             if (string.IsNullOrEmpty(Make) || string.IsNullOrEmpty(Model) || string.IsNullOrEmpty(Vin))
             {
@@ -94,9 +104,21 @@ namespace CarListingApp.ViewModels
                 Model = Model,
                 Vin = Vin
             };
-            App.CarService.AddCar(car);
-            await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
+            if (CarId != 0)
+            {
+                car.Id = CarId;
+                App.CarService.UpdateCar(car);
+                await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
+
+            }
+            else
+            {
+                App.CarService.AddCar(car);
+                await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
+
+            }
             await GetCarList();
+            await ClearForm();
         }
 
         [ICommand]
@@ -117,10 +139,39 @@ namespace CarListingApp.ViewModels
             else
             {
                 await Shell.Current.DisplayAlert("Deletion Successful", "Record Removed Successfully", "Ok");
+                await GetCarList();
 
             }
         }
 
+        [ICommand]
+        async Task UpdateCar(int id)
+        {
+            AddEditButtonText = editButtonText;
+            return;
+
+        }
+
+        [ICommand]
+        async Task SetEditMode(int id)
+        {
+            AddEditButtonText = editButtonText;
+            CarId = id;
+            var car = App.CarService.GetCar(id);
+            Make = car.Make;
+            Model = car.Model;
+            Vin = car.Vin;
+        }
+        [ICommand]
+        async Task ClearForm()
+        {
+            AddEditButtonText = createButtonText;
+            CarId = 0;
+            Make = string.Empty;
+            Model = string.Empty;
+            Vin = string.Empty;
+           
+        }
     }
 }
 

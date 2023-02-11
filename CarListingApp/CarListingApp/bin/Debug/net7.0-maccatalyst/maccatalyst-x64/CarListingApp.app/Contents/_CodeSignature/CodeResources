@@ -10,11 +10,11 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		nXKwqmOMKePj/WWJfwuw2PWplSM=
+		1UvWqk5ZcrOl8T/pi1TRQ5ozKH8=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
-		K/hOMDsXcFw4MGJi96AbKbUfI74=
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SfnIeEzQPAlgObPJ/9z0i7il1JHVpMAELJ8za2PP5rY=
+			gjHHfrA5n+A4mxAheZHazVlarpRMYyjCXnLMQqB9iwY=
 			</data>
 		</dict>
 		<key>MonoBundle/CarListingApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gclp+poUn7070Gu20IMIuevUihG1RvLRpGhZ1KW7Q40=
+			lgdX3INnV4IW78sjRqK2Dena1/XqYBv8e3KY4ejKDh8=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfW9YSGfunnLgdH6QG8jwazapaObRUXq87nPs7OG2sU=
+			GVPZQZUGx7cPohMJsSQONj8Zns+2iuowB18JTk7ablY=
 			</data>
 		</dict>
 		<key>MonoBundle/SQLitePCLRaw.core.dll</key>
@@ -248,6 +248,13 @@
 			<key>hash2</key>
 			<data>
 			q4iWaKzfbd0RpYo7FZ25/dh4R+VOVnBvkwISVBxgVbY=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.provider.e_sqlite3.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WrSHNHMpz/SEX1LuzzfI4bvxDCZpOr9VM0XfsFiK4HA=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1419,6 +1426,13 @@
 			xBo6VQjVooxQke4HEOsWbxCLfBLaUZvdSsp2FAORzsc=
 			</data>
 		</dict>
+		<key>MonoBundle/libe_sqlite3.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CpOJs/h0DDgD005/sQqne6haEtrnv5/MJ+zY2d7JILo=
+			</data>
+		</dict>
 		<key>MonoBundle/libmonosgen-2.0.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -1430,7 +1444,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			24GFzSdkRd3Bk5byqrlKweD6S8XnI/cglgxo767Xahc=
+			baTr0gsZrblCx/Wg/QjrfeBpunlxiKsFIJSYhaFNf0U=
 			</data>
 		</dict>
 		<key>MonoBundle/mscorlib.dll</key>
@@ -1465,14 +1479,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O5IQBl5HqQtC8bsVRF/ML9Ajezrtwb1JReotng0tg4I=
+			YnhRkwk3kvdEUkd4t6/XCsCnzEopa6XK/3TLnaZ6VZk=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/x+CJBLKHkO3nPxIpXSW/NIcJ9uYA3sH70YTVdtoOE=
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>

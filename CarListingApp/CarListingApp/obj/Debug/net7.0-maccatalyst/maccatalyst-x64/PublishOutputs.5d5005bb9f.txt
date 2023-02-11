@@ -12,9 +12,9 @@
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/Microsoft.Toolkit.Mvvm.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLite-net.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLitePCLRaw.batteries_v2.dll
-/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLitePCLRaw.nativelibrary.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLitePCLRaw.core.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/CarListingApp.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/Microsoft.VisualBasic.Core.dll
@@ -197,5 +197,6 @@
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/libSystem.Security.Cryptography.Native.Apple.dylib
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/libmonosgen-2.0.dylib
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/libxamarin-dotnet-debug.dylib
+/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/libe_sqlite3.dylib
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MonoBundle/System.Private.CoreLib.aotdata.x86_64
 /Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../CarListingApp.app/Contents/MacOS//CarListingApp
