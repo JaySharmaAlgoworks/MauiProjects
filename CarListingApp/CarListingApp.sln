@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarListingApp", "CarListingApp\CarListingApp.csproj", "{AFD2D64D-F176-44C3-9E2C-1E43E16BB364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarListingApp.Api", "CarListingApp.Api\CarListingApp.Api.csproj", "{DE810FB0-1C08-4206-A81C-30FF825C6F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{AFD2D64D-F176-44C3-9E2C-1E43E16BB364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFD2D64D-F176-44C3-9E2C-1E43E16BB364}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AFD2D64D-F176-44C3-9E2C-1E43E16BB364}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DE810FB0-1C08-4206-A81C-30FF825C6F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE810FB0-1C08-4206-A81C-30FF825C6F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE810FB0-1C08-4206-A81C-30FF825C6F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE810FB0-1C08-4206-A81C-30FF825C6F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
