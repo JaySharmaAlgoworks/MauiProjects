@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>CarListingApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/jaysharma/Projects/CarListingApp/CarListingApp/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>CarListingApp.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/jaysharma/Projects/CarListingApp/CarListingApp</SourceProjectPath>
+      <SourceProjectPath>/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

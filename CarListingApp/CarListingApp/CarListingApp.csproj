@@ -52,6 +52,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -62,6 +63,7 @@
 	  <None Remove="CommunityToolkit.Mvvm" />
 	  <None Remove="Microsoft.Toolkit.Mvvm" />
 	  <None Remove="sqlite-net-pcl" />
+	  <None Remove="SQLitePCLRaw.provider.dynamic_cdecl" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
