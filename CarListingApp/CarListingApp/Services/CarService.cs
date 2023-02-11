@@ -94,6 +94,35 @@ namespace CarListingApp.Services
                 StatusMessage = "Failed to Insert data.";
             }
         }
+
+        public int DeleteCar(int id)
+        {
+            try
+            {
+                Init();
+                return conn.Table<Car>().Delete(q => q.Id == id);
+
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = "Failed to delete data.";
+            }
+            return 0;
+        }
+
+        public Car GetCar(int id)
+        {
+            try
+            {
+                Init();
+                return conn.Table<Car>().FirstOrDefault(q=>q.Id==id);
+            }
+            catch (Exception)
+            {
+                StatusMessage = "Falied to retrieve data.";
+            }
+            return null;
+        }
     }
 }
 

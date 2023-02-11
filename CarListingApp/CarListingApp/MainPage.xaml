@@ -29,7 +29,7 @@
        
        <Button Text="Fetch Cars" Grid.Row="1" Grid.ColumnSpan="2" IsEnabled="{Binding IsNotLoading}" Margin="9" Command="{Binding GetCarListCommand}"/>
    </Grid>-->
-    <Grid ColumnSpacing="1" RowSpacing="1" Padding="5">
+    <Grid ColumnSpacing="1" RowSpacing="10" Padding="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
