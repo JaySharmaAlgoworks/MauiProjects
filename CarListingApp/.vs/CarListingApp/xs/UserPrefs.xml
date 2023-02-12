@@ -4,16 +4,18 @@
   <MonoDevelop.Ide.ItemProperties.CarListingApp.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarListingApp.Api/CarListDbContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarListingApp.Api/Program.cs">
     <Files>
-      <File FileName="CarListingApp.Api/Program.cs" Line="25" Column="55" />
-      <File FileName="CarListingApp.Api/CarListDbContext.cs" Line="14" Column="10" />
+      <File FileName="CarListingApp.Api/Program.cs" Line="47" Column="69" />
+      <File FileName="CarListingApp.Api/CarListDbContext.cs" Line="25" Column="25" />
       <File FileName="CarListingApp.Api/Car.cs" Line="12" Column="1" />
-      <File FileName="CarListingApp/ViewModels/CarListViewModel.cs" Line="1" Column="1" />
-      <File FileName="CarListingApp/ViewModels/CarDetailPageViewModel.cs" Line="1" Column="1" />
-      <File FileName="CarListingApp/Services/CarService.cs" Line="17" Column="25" />
-      <File FileName="CarListingApp.Api/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="CarListingApp.Api/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="CarListingApp/ViewModels/CarListViewModel.cs" />
+      <File FileName="CarListingApp/ViewModels/CarDetailPageViewModel.cs" />
+      <File FileName="CarListingApp/Services/CarService.cs" />
+      <File FileName="CarListingApp.Api/Properties/launchSettings.json" />
+      <File FileName="CarListingApp.Api/WeatherForecast.cs" />
+      <File FileName="CarListingApp.Api/Migrations/CarListDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="CarListingApp.Api/Migrations/20230211150630_InitialCreate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,8 +26,10 @@
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
             </Node>
-            <Node name="CarListingApp.Api" expanded="True" selected="True">
+            <Node name="CarListingApp.Api" expanded="True">
+              <Node name="Migrations" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="CarListDbContext.cs" selected="True" />
             </Node>
           </Node>
         </State>
