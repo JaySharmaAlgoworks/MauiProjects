@@ -24,6 +24,7 @@ public static class MauiProgram
         #region DB
         string dbPath = Path.Combine(FileSystem.AppDataDirectory, "cars.db3");
         builder.Services.AddSingleton<CarService>(s=>ActivatorUtilities.CreateInstance<CarService>(s,dbPath));
+        builder.Services.AddTransient<CarApiService>();
         #endregion
 
         #region ViewModels

@@ -13,14 +13,15 @@ namespace CarListingApp.ViewModels
     public partial class CarListViewModel : BaseViewModel
     {
         public ObservableCollection<Car> Cars { get; set; } = new();
-
+        private readonly CarApiService _carApiService;
         const string editButtonText = "Update Car";
         const string createButtonText = "Add Car";
 
-        public CarListViewModel()
+        public CarListViewModel(CarApiService carApiService)
         {
             Title = "Car List";
             GetCarList().Wait();
+            _carApiService = carApiService;
         }
 
         [ObservableProperty]
@@ -52,8 +53,8 @@ namespace CarListingApp.ViewModels
                 IsLoading = true;
                 if (Cars.Any()) Cars.Clear();
 
-                var cars = App.CarService.GetCars();
-
+                // var cars = App.CarService.GetCars();
+                var cars =await _carApiService.GetCars();
                 foreach (var car in cars)
                 {
                     Cars.Add(car);

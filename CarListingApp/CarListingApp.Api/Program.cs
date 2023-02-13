@@ -20,29 +20,23 @@ public class Program
         {
             o.AddPolicy("AllowAll", a => a.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
         });
-        var dbPath = Path.Join(Directory.GetCurrentDirectory(), "carlist.db");
-        var conn = new SqliteConnection($"Data Source={dbPath}");
+       // var dbPath = Path.Join(Directory.GetCurrentDirectory(), "carlist.db");
+        var conn = new SqliteConnection($"Data Source=C:\\carlistdb\\carlist.db");
         builder.Services.AddDbContext<CarListDbContext>(o => o.UseSqlite(conn));
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
+        //if (app.Environment.IsDevelopment())
+        //{
             app.UseSwagger();
             app.UseSwaggerUI();
-        }
+       // }
 
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
         app.UseCors("AllowAll");
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
-        app.UseHttpsRedirection();
-        app.UseCors("AllowAll");
+        
 
         app.MapGet("/cars",async(CarListDbContext db)=>await db.Cars.ToListAsync());
 
@@ -70,7 +64,7 @@ public class Program
             return Results.NoContent();
         });
 
-        app.MapPost("/cars/{id}", async (int id,Car car ,CarListDbContext db) =>
+        app.MapPost("/cars/{id}", async (Car car ,CarListDbContext db) =>
         {
             await db.AddAsync(car);
             await db.SaveChangesAsync();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vntaQqY4epdxiB6jTP/2L8AMHuu7m1nnX1GHhTLnsw3X/SumZjfkk0hGOyCx3rNRumKKIM8O593o2YUj89rTKA==",
+  "dgSpecHash": "vvFnt76aveNx22VCnB+4KU2ZOkvABLtDFn9viqMzkz0pTOcgsl972AwK6K+dKuCuspcSw5jPAdldIij8cX8l1w==",
   "success": true,
   "projectFilePath": "/Users/jaysharma/Projects/MauiProjects/CarListingApp/CarListingApp/CarListingApp.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/Users/jaysharma/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/jaysharma/.nuget/packages/microsoft.maui.graphics/7.0.59/microsoft.maui.graphics.7.0.59.nupkg.sha512",
     "/Users/jaysharma/.nuget/packages/microsoft.toolkit.mvvm/7.1.2/microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "/Users/jaysharma/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
     "/Users/jaysharma/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
     "/Users/jaysharma/.nuget/packages/sqlitepclraw.bundle_green/2.1.4/sqlitepclraw.bundle_green.2.1.4.nupkg.sha512",
     "/Users/jaysharma/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
