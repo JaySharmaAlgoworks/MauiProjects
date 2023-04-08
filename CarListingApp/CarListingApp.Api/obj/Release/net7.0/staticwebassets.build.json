@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GKLqICA73eMn09/MQorfedRHesLmN0tPKoz6qlmGGow=",
+  "Source": "CarListingApp.Api",
+  "BasePath": "_content/CarListingApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

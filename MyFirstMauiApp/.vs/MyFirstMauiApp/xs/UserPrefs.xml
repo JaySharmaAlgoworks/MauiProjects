@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{87573F51-F4D0-4CFC-A53F-62AB974B7936}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MyFirstMauiApp PreferredExecutionTarget="Android.phone_h-dpi_4in_-_api_31_1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.phone_h-dpi_4in_-_api_31_1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyFirstMauiApp/AppShell.xaml">
+    <Files>
+      <File FileName="MyFirstMauiApp/MainPage.xaml.cs" Line="13" Column="3" />
+      <File FileName="MyFirstMauiApp/MainPage.xaml" Line="11" Column="38" />
+      <File FileName="MyFirstMauiApp/TestPage.cs" Line="35" Column="50" />
+      <File FileName="MyFirstMauiApp/AppShell.xaml" Line="7" Column="36" />
+      <File FileName="MyFirstMauiApp/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="MyFirstMauiApp/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="MyFirstMauiApp/NewPage1.xaml" Line="15" Column="1" />
+      <File FileName="MyFirstMauiApp/NewPage1.xaml.cs" Line="10" Column="1" />
+      <File FileName="MyFirstMauiApp/LayoutExample.xaml.cs" Line="7" Column="25" />
+      <File FileName="MyFirstMauiApp/LayoutExample.xaml" Line="7" Column="101" />
+      <File FileName="MyFirstMauiApp/SharedResources.cs" Line="4" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyFirstMauiApp" expanded="True">
+            <Node name="MyFirstMauiApp" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+                <Node name="Raw" expanded="True" />
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
